@@ -8,7 +8,7 @@
 
 Author : [Sayan Maity](sayancr777@gmail.com)
 
-![preview](https://github.com/Sayan-Maity/Expense-Tracker/blob/main/assets/Preview.jpg)
+![preview](https://github.com/Sayan-Maity/InstaCart/blob/main/public/preview.jpg)
 
 ## Features
 
