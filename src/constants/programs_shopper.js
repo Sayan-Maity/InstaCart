@@ -5,24 +5,39 @@ export const programs_shopper = {
     {
       title: "Make money with us",
       body: [
-        "Opportunities",
-        "Opportunities",
-        "Opportunities",
-        "Opportunities",
-        "Opportunities",
+        "Shopper Opportunities",
+        "Become a Shopper",
+        "In-Store Employee For Instacart",
+        "Earnings"
       ],
     },
     {
       title: "Top cities",
-      body: ["Chicago", "Chicago", "Chicago", "Chicago", "Chicago"],
+      body: [
+        "Los Angeles",
+        "New York City",
+        "Chicago",
+        "Washington D.C.",
+        "San Francisco"
+      ],
     },
     {
       title: "More cities",
-      body: ["Miami", "Miami", "Miami", "Miami", "Miami"],
+      body: [
+        "Miami",
+        "Las Vegas",
+        "Atlanta",
+        "Dallas",
+        "View all Job Locations"
+      ],
     },
     {
       title: "Shopper help",
-      body: ["Contact", "Contact", "Contact", "Contact", "Contact"],
+      body: [
+        "Help",
+        "Contact",
+        "Safety"
+      ],
     },
   ],
 };
