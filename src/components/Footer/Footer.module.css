@@ -33,9 +33,9 @@
 
 .footerText {
   margin: 25px 0 0;
-  width: 80%;
+  width: 90%;
   height: 100%;
-  text-align: center;
+  text-align: start;
   color: lightslategrey;
   font-size: 12px;
 }
