@@ -1,25 +1,35 @@
-import logo from './logo.svg';
-import './App.css';
+import React, { useState } from "react";
 
-function App() {
+// Components import
+import Navbar from "./components/Navbar/Navbar";
+import NavbarResponsive from "./components/NavbarResponsive/NavbarResponsive";
+import Hero from "./components/Hero/Hero";
+import Features from "./components/Features/Features";
+import Growth from "./components/Growth/Growth";
+import Questions from "./components/Questions/Questions";
+import Programs from "./components/Programs/Programs";
+import Footer from "./components/Footer/Footer";
+
+// Import data
+import { programs_user } from "./constants/programs_user";
+import { programs_shopper } from "./constants/programs_shopper";
+
+const App = () => {
+  const [hamActive, setHamActive] = useState(false);
+
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Navbar hamActive={hamActive} setHamActive={setHamActive} />
+      <NavbarResponsive hamActive={hamActive} />
+      <Hero />
+      <Features />
+      <Growth />
+      <Questions />
+      <Programs programs={programs_user} />
+      <Programs programs={programs_shopper} />
+      <Footer />
     </div>
   );
-}
+};
 
 export default App;
