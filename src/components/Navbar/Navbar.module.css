@@ -52,16 +52,18 @@
   font-size: 18px;
   font-weight: 600;
   cursor: pointer;
+  padding: 0.7rem 1.1rem;
+  /* background-color: red; */
 }
 
 .signup {
-  padding: 0.75rem;
+  padding: 0.7rem 1.1rem;
   border-radius: 50px;
   background: #0aad0a;
   color: white;
   font-weight: bold;
   font-size: 18px;
-  margin-left: 25px;
+  margin-left: 0.2rem;
   cursor: pointer;
   outline-style: none;
   border-style: none;
