@@ -6,29 +6,52 @@ export const programs_user = {
       title: "Top departments",
       body: [
         "Fresh Produce",
-        "Fresh Produce",
-        "Fresh Produce",
-        "Fresh Produce",
-        "Fresh Produce",
+        "Dairy Products",
+        "Meat",
+        "Meat Alternatives",
+        "Sea Food",
+        "Pantry Food",
+        "Baked Goods",
+        "View all departments",
       ],
     },
     {
       title: "More departments",
-      body: ["Beverages", "Beverages", "Beverages", "Beverages", "Beverages"],
+      body: [
+        "Alcohol",
+        "Alcohol by Location ",
+        "Frozen Food", 
+        "Beverages", 
+        "Organic Grocery", 
+        "Household Essentials", 
+        "Office Supplies", 
+        "Beauty Products"
+      ],
     },
     {
       title: "Instacart programs",
       body: [
         "Gift Cards",
+        "EBT SNAP",
+        "Promos & Coupons",
         "Gift Cards",
-        "Gift Cards",
-        "Gift Cards",
-        "Gift Cards",
+        "Grocery Budget Calculator",
+        "Instacart Ads",
+        "Instacart+",
+        "Instacart Connect",
+        "Careers"
       ],
     },
     {
       title: "Get to know us",
-      body: ["Contact", "Contact", "Contact", "Contact", "Contact"],
+      body: [
+        "Press",
+        "Blog",
+        "Ideas & Guides",
+        "Contact",
+        "Help",
+        "Shop By Location"
+      ],
     },
   ],
 };
