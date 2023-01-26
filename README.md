@@ -12,7 +12,7 @@ Author : [Sayan Maity](sayancr777@gmail.com)
 
 ## Features
 
-- Allow the user to create the new tasks
+- Allow the user to create the new tasks.
 - Allow user to drag and drop their tasks to the respective working coloums
 
 ## Built with
